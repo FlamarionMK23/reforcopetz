@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header>div{
+    background-color: #f5f5e8;
+    height: 60px;
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+.img_logo {
+width: 177px;
+height: 31px;
+}
