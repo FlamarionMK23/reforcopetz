@@ -50,6 +50,8 @@ header>div {
 
 /* MAIN */
 
+/* SEÇÃO 1 */
+
 .seção_1 {
     display: flex;
     justify-content: space-between;
@@ -61,9 +63,9 @@ h2 {
     font-size: 48px;
     margin-bottom: 120px;
     font-weight: 700;
-    }
+}
 
-h3 {
+p {
     font-size: 20px;
     margin-bottom: 70px;
 }
@@ -81,6 +83,38 @@ h3 {
     width: 49%;
 }
 
-.Banner{
+.Banner {
     width: 49%;
 }
+
+
+/* SEÇÃO 2 */
+
+.fundo {
+    background-color: #FF8800;
+    background: rgba(255, 136, 0, 0.15);
+    margin-top: 140px;
+    width: 1440px;
+    height: 734px;
+}
+
+.fundo>h2 {
+    font-size: 48px;
+    padding: 70px 0px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.seção_2 {
+    display: flex;
+    justify-content:space-around;
+height: 422px;
+}
+
+.card>p,
+.card{
+    background-color: #ffffff;
+    font-family: var(--font1);
+    font-size: 10px;
+}
+
