@@ -91,10 +91,11 @@ p {
 /* SEÇÃO 2 */
 
 .fundo {
-    background-color: #FF8800;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background: rgba(255, 136, 0, 0.15);
     margin-top: 140px;
-    width: 1440px;
     height: 734px;
 }
 
@@ -107,14 +108,34 @@ p {
 
 .seção_2 {
     display: flex;
-    justify-content:space-around;
-height: 422px;
+    justify-content: space-around;
+    height: 422px;
+
 }
 
-.card>p,
-.card{
+.card>p {
+
+}
+
+
+
+.card {
     background-color: #ffffff;
     font-family: var(--font1);
-    font-size: 10px;
+    font-size: 20px;
+    text-align: center;
+    width: 500px;
+    padding: 30px;
 }
 
+.link1 {
+    font-family: var(--font1);
+    font-size: 25px;
+    color: #A944FF;
+}
+
+.link2 {
+    font-family: var(--font1);
+    font-size: 25px;
+    color: #0088AE;
+}
